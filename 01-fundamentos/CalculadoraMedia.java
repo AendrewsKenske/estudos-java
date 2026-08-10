@@ -11,7 +11,7 @@ public class Main {
             // Esse código é usado ao ter casas decimais (".*\\d+([. ,])?")) é adicionado o ponto e virgula caso o utilizador opte por uma das duas formas.
             System.out.println("Ops! Adicione os nomes das matérias separando-as com vírgula!");
         String materia = scanner.nextLine();
-        System.out.println("Agora adicione as notas desejadas (máximo 4 notas):");
+        System.out.println("Agora adicione as notas desejadas (máximo 3 notas):");
         double nota = scanner.nextDouble();
         double nota2 = scanner.nextDouble();
         double nota3 = scanner.nextDouble();
